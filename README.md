@@ -64,19 +64,3 @@ Leaderboard after gameplay:
 Audit trail (latest moves first):
 
     sqlite3 university_tycoon.db "SELECT * FROM AuditTrail ORDER BY Log_ID DESC LIMIT 20;"
-
-## Suggested repo structure
-
-    .
-    ├── create.sql
-    ├── populate.sql
-    ├── view.sql
-    ├── q1.sql
-    ├── q2.sql
-    ├── q3.sql
-    ├── q4.sql
-    ├── assets/
-    │   ├── board.png
-    │   └── erd.png
-    ├── README.md
-    └── .gitignore
