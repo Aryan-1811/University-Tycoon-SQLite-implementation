@@ -9,13 +9,13 @@ runs SQL scripts to simulate the required gameplay rounds.
 The image below is the original board state used to build the database (locations, ordering,
 building colours, and special tiles). The database initial state matches this setup.
 
-![University Tycoon board](assets/board.png)
+![University Tycoon board](Assets/board.png)
 
 ## ER Diagram
 
 Crow’s-foot ERD used to design the schema:
 
-![ER Diagram](assets/erd.png)
+![ER Diagram](Assets/erd.png)
 
 ## What’s in this repo
 
